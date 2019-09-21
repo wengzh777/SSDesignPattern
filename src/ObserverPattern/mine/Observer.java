@@ -1,4 +1,4 @@
-package ObserverPattern;
+package ObserverPattern.mine;
 
 /**
  * @author: wzh
@@ -8,4 +8,5 @@ package ObserverPattern;
 public interface Observer {
 
     public void perform(Object data);
+
 }
