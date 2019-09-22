@@ -11,11 +11,9 @@ public class test {
         Duck smallYellowDuck = new SmallYellowDuck(new LowFly(),new GaGaQuack());
         Duck machineDuck = new MachineDuck(new CanNotFly(),new GuaGuaQuack());
 
-        smallYellowDuck.introduce();
         smallYellowDuck.fly();
         smallYellowDuck.quack();
 
-        machineDuck.introduce();
         machineDuck.fly();
         machineDuck.quack();
     }
